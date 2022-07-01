@@ -3,6 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{51F08C69-E435-400F-8BC2-1103B46D4459}"
+	ProjectSection(SolutionItems) = preProject
+		Category-depl.yaml = Category-depl.yaml
+		Category-np-srv.yaml = Category-np-srv.yaml
+		Ingress-srv.yaml = Ingress-srv.yaml
+		local-pvc.yaml = local-pvc.yaml
+		mssql-plat-depl.yaml = mssql-plat-depl.yaml
+		News-depl.yaml = News-depl.yaml
+		rabbitmq-depl.yaml = rabbitmq-depl.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
